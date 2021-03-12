@@ -1,2 +1,15 @@
-<h1>Hello World</h1>
-<h2>This is my first webpage</h2>
+<head>
+  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+  <script>
+    window.OneSignal = window.OneSignal || [];
+    OneSignal.push(function() {
+      OneSignal.init({
+        appId: "900de92e-ddc3-49a3-8f20-3b3271ec9428",
+      });
+    });
+  </script>
+</head>
+<body>
+  <h1>Hello World</h1>
+  <h2>This is my first webpage</h2>
+</body>
